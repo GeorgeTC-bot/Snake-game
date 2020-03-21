@@ -134,6 +134,8 @@ function keyPressed(){
     snake.score = 0;
 
     gamestate = "-";
+    
+    dir = "-";
 
     snake.locate();
   }
