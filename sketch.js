@@ -113,7 +113,7 @@ function keyPressed(){
       dir =  "down";
     }
   }
-  else if(keyCode === 82 ){
+  else if(keyCode === 82 && gamestate === "dead"){
     snake.location = [];
     X = 200;
     Y = 200;
